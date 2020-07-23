@@ -5,7 +5,8 @@ var vueInstance = new Vue({
   data: {
     title: 'Samsung smartphone',
     url: 'https://google.com',
-    target: '_blank' // _top
+    target: '_blank', // _top
+    check: true
   },
   methods: {
     say: function (text) {
