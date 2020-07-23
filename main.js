@@ -6,11 +6,16 @@ var vueInstance = new Vue({
     title: 'Samsung smartphone',
     url: 'https://google.com',
     target: '_blank', // _top
-    check: true
+    check: true,
+    price: 10000
   },
   methods: {
-    say: function (text) {
+    say(text) {
       return 'Hello ' + text;
+    },
+    formatPrice() {
+      console.log(this.price);
+      return this.price;
     }
   }
 });
