@@ -1,7 +1,8 @@
 var vueInstance = new Vue({
   el: '#app',
   data: {
-    title: 'Samsung smartphone'
+    title: 'Samsung smartphone',
+    url: 'https://google.com'
   },
   methods: {
     say: function (text) {
