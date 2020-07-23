@@ -17,7 +17,11 @@ var vueInstance = new Vue({
     formatPrice() {
       console.log(this.price);
       return this.price;
-    }
+    },
+    handleClick(e) {
+      console.log(e);
+      this.counter = this.counter + 1;
+    },
   }
 });
 
