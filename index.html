@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VueJS</title>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: greenyellow;
+    }
+  </style>
 </head>
 <body>
   <header><h1>Header</h1></header>
@@ -30,6 +37,8 @@
     </div>
     <div id="example-5">
       <button v-on:click="addAndHandle($event, 5)">addAndHandle</button>
+    </div>
+    <div class="box" v-on:mousemove="handleMouseMove">
     </div>
   </div>
   <footer><h1>Footer</h1></footer>

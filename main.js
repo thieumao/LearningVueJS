@@ -19,16 +19,19 @@ var vueInstance = new Vue({
       return this.price;
     },
     handleClick(e) {
-      console.log(e);
+      console.log(e.target);
       this.counter = this.counter + 1;
     },
     add(number) {
       console.log(number);
     },
     addAndHandle(e, number) {
-      console.log(e);
+      console.log(e.target);
       console.log(number);
     },
+    handleMouseMove(e) {
+      console.log(e.target);
+    }
   }
 });
 
