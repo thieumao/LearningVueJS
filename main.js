@@ -22,6 +22,13 @@ var vueInstance = new Vue({
       console.log(e);
       this.counter = this.counter + 1;
     },
+    add(number) {
+      console.log(number);
+    },
+    addAndHandle(e, number) {
+      console.log(e);
+      console.log(number);
+    },
   }
 });
 

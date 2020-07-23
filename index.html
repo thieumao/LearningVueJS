@@ -23,7 +23,13 @@
       <p>The button above has been clicked {{ counter }} times.</p>
     </div>
     <div id="example-2">
-      <button v-on:click="handleClick">Click</button>
+      <button v-on:click="handleClick">handleClick</button>
+    </div>
+    <div id="example-3">
+      <button v-on:click="add(4)">add</button>
+    </div>
+    <div id="example-5">
+      <button v-on:click="addAndHandle($event, 5)">addAndHandle</button>
     </div>
   </div>
   <footer><h1>Footer</h1></footer>
