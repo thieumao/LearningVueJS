@@ -7,7 +7,8 @@ var vueInstance = new Vue({
     url: 'https://google.com',
     target: '_blank', // _top
     check: true,
-    price: 10000
+    price: 10000,
+    counter: 1
   },
   methods: {
     say(text) {
