@@ -31,6 +31,10 @@ var vueInstance = new Vue({
     },
     handleMouseMove(e) {
       console.log(e.target);
+    },
+    handleSubmitForm(e) {
+      e.preventDefault();
+      console.log(e.target);
     }
   }
 });
