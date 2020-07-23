@@ -13,7 +13,7 @@
   </div>
   <div id="app">
     <h1>{{ title }}</h1>
-    <a v-bind:href="url" target="_blank">
+    <a v-bind:href="url" v-bind:target="target">
       <h2>{{ say('World') }}</h2>
     </a>
   </div>
