@@ -30,7 +30,11 @@ var vueInstance = new Vue({
       console.log(number);
     },
     handleMouseMove(e) {
-      console.log(e.target);
+      console.log('Parent ' + e.target);
+    },
+    handleMouseMoveChild(e) {
+      // e.stopPropagation();
+      console.log('Child ' + e.target);
     },
     handleSubmitForm(e) {
       // e.preventDefault();
