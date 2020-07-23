@@ -33,7 +33,7 @@ var vueInstance = new Vue({
       console.log(e.target);
     },
     handleSubmitForm(e) {
-      e.preventDefault();
+      // e.preventDefault();
       console.log(e.target);
     }
   }
